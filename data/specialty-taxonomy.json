@@ -1,0 +1,418 @@
+[
+  {
+    "id": "cardiology",
+    "label": { "en": "Cardiology", "bn": "হৃদরোগ বিভাগ" },
+    "synonyms": {
+      "en": ["cardiac services", "heart centre", "cardiology department"],
+      "bn": ["কার্ডিওলজি", "হার্ট সেন্টার", "হৃদ সেবা"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated cardiology and heart-centre services.",
+      "bn": "প্রদানকারী-ঘোষিত কার্ডিওলজি ও হার্ট সেন্টার সেবা।"
+    },
+    "active": true
+  },
+  {
+    "id": "cardiac-surgery",
+    "label": { "en": "Cardiac surgery", "bn": "হৃদশল্যচিকিৎসা" },
+    "synonyms": {
+      "en": ["cardiothoracic surgery", "heart surgery unit"],
+      "bn": ["কার্ডিওথোরাসিক সার্জারি", "হার্ট সার্জারি ইউনিট"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated cardiac and cardiothoracic surgery units.",
+      "bn": "প্রদানকারী-ঘোষিত হৃদ ও কার্ডিওথোরাসিক সার্জারি ইউনিট।"
+    },
+    "active": true
+  },
+  {
+    "id": "oncology",
+    "label": { "en": "Oncology", "bn": "অনকোলজি" },
+    "synonyms": {
+      "en": ["cancer centre", "oncology services", "tumour centre"],
+      "bn": ["ক্যান্সার সেন্টার", "অনকোলজি সেবা"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated oncology and cancer-centre services.",
+      "bn": "প্রদানকারী-ঘোষিত অনকোলজি ও ক্যান্সার সেন্টার সেবা।"
+    },
+    "active": true
+  },
+  {
+    "id": "radiation-oncology",
+    "label": { "en": "Radiation oncology", "bn": "রেডিয়েশন অনকোলজি" },
+    "synonyms": {
+      "en": ["radiotherapy", "radiation therapy unit"],
+      "bn": ["রেডিওথেরাপি", "বিকিরণ চিকিৎসা ইউনিট"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated radiotherapy and radiation oncology units.",
+      "bn": "প্রদানকারী-ঘোষিত রেডিওথেরাপি ও রেডিয়েশন অনকোলজি ইউনিট।"
+    },
+    "active": true
+  },
+  {
+    "id": "haematology",
+    "label": { "en": "Haematology", "bn": "হেমাটোলজি" },
+    "synonyms": {
+      "en": ["hematology", "blood disorders clinic"],
+      "bn": ["রক্তরোগ ক্লিনিক", "হেমাটোলজি বিভাগ"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated haematology services.",
+      "bn": "প্রদানকারী-ঘোষিত হেমাটোলজি সেবা।"
+    },
+    "active": true
+  },
+  {
+    "id": "orthopedics",
+    "label": { "en": "Orthopedics", "bn": "অর্থোপেডিক্স" },
+    "synonyms": {
+      "en": ["orthopaedics", "bone and joint", "orthopedic services"],
+      "bn": ["অর্থোপেডিক সেবা", "হাড় ও জয়েন্ট"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated orthopedic and bone-and-joint services.",
+      "bn": "প্রদানকারী-ঘোষিত অর্থোপেডিক সেবা।"
+    },
+    "active": true
+  },
+  {
+    "id": "sports-medicine",
+    "label": { "en": "Sports medicine", "bn": "ক্রীড়া চিকিৎসা" },
+    "synonyms": {
+      "en": ["sports injury clinic", "sports medicine unit"],
+      "bn": ["স্পোর্টস মেডিসিন", "ক্রীড়া আঘাত ক্লিনিক"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated sports medicine units.",
+      "bn": "প্রদানকারী-ঘোষিত ক্রীড়া চিকিৎসা ইউনিট।"
+    },
+    "active": true
+  },
+  {
+    "id": "fertility",
+    "label": { "en": "Fertility", "bn": "প্রজনন সহায়তা" },
+    "synonyms": {
+      "en": ["IVF centre", "reproductive medicine", "fertility clinic"],
+      "bn": ["আইভিএফ সেন্টার", "প্রজনন চিকিৎসা", "ফার্টিলিটি ক্লিনিক"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated fertility and reproductive-medicine services.",
+      "bn": "প্রদানকারী-ঘোষিত প্রজনন সহায়তা সেবা।"
+    },
+    "active": true
+  },
+  {
+    "id": "gynaecology",
+    "label": { "en": "Gynaecology", "bn": "গাইনোকোলজি" },
+    "synonyms": {
+      "en": ["gynecology", "women's health clinic"],
+      "bn": ["গাইনি বিভাগ", "নারী স্বাস্থ্য ক্লিনিক"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated gynaecology services.",
+      "bn": "প্রদানকারী-ঘোষিত গাইনোকোলজি সেবা।"
+    },
+    "active": true
+  },
+  {
+    "id": "obstetrics",
+    "label": { "en": "Obstetrics", "bn": "প্রসূতি বিভাগ" },
+    "synonyms": {
+      "en": ["maternity", "obstetric unit"],
+      "bn": ["ম্যাটারনিটি", "প্রসূতি ইউনিট"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated maternity and obstetric services.",
+      "bn": "প্রদানকারী-ঘোষিত প্রসূতি সেবা।"
+    },
+    "active": true
+  },
+  {
+    "id": "ophthalmology",
+    "label": { "en": "Ophthalmology", "bn": "চক্ষু বিভাগ" },
+    "synonyms": {
+      "en": ["eye centre", "eye clinic", "ophthalmic services"],
+      "bn": ["আই সেন্টার", "চোখের ক্লিনিক"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated eye-centre and ophthalmology services.",
+      "bn": "প্রদানকারী-ঘোষিত চক্ষু সেবা।"
+    },
+    "active": true
+  },
+  {
+    "id": "dental",
+    "label": { "en": "Dental", "bn": "দন্ত সেবা" },
+    "synonyms": {
+      "en": ["dentistry", "dental clinic", "oral health"],
+      "bn": ["ডেন্টাল ক্লিনিক", "দাঁতের সেবা"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated dental and oral-health services.",
+      "bn": "প্রদানকারী-ঘোষিত দন্ত সেবা।"
+    },
+    "active": true
+  },
+  {
+    "id": "oral-surgery",
+    "label": { "en": "Oral surgery", "bn": "মৌখিক শল্যচিকিৎসা" },
+    "synonyms": {
+      "en": ["maxillofacial surgery", "oral and maxillofacial"],
+      "bn": ["ম্যাক্সিলোফেসিয়াল সার্জারি"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated oral and maxillofacial surgery units.",
+      "bn": "প্রদানকারী-ঘোষিত মৌখিক শল্যচিকিৎসা ইউনিট।"
+    },
+    "active": true
+  },
+  {
+    "id": "health-check",
+    "label": { "en": "Health check-up", "bn": "স্বাস্থ্য পরীক্ষা" },
+    "synonyms": {
+      "en": ["medical check-up", "health screening", "executive screening"],
+      "bn": ["মেডিকেল চেক-আপ", "হেলথ স্ক্রিনিং"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated health screening and check-up packages.",
+      "bn": "প্রদানকারী-ঘোষিত স্বাস্থ্য পরীক্ষা প্যাকেজ।"
+    },
+    "active": true
+  },
+  {
+    "id": "neurology",
+    "label": { "en": "Neurology", "bn": "নিউরোলজি" },
+    "synonyms": {
+      "en": ["neurology clinic", "nerve and brain services"],
+      "bn": ["নিউরোলজি ক্লিনিক", "স্নায়ু সেবা"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated neurology services.",
+      "bn": "প্রদানকারী-ঘোষিত নিউরোলজি সেবা।"
+    },
+    "active": true
+  },
+  {
+    "id": "neurosurgery",
+    "label": { "en": "Neurosurgery", "bn": "নিউরোসার্জারি" },
+    "synonyms": {
+      "en": ["brain surgery unit", "neurosurgical services"],
+      "bn": ["নিউরোসার্জারি ইউনিট"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated neurosurgery units.",
+      "bn": "প্রদানকারী-ঘোষিত নিউরোসার্জারি ইউনিট।"
+    },
+    "active": true
+  },
+  {
+    "id": "gastroenterology",
+    "label": { "en": "Gastroenterology", "bn": "গ্যাস্ট্রোএন্টারোলজি" },
+    "synonyms": {
+      "en": ["digestive centre", "GI clinic"],
+      "bn": ["ডাইজেস্টিভ সেন্টার", "জিআই ক্লিনিক"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated digestive and gastroenterology services.",
+      "bn": "প্রদানকারী-ঘোষিত গ্যাস্ট্রোএন্টারোলজি সেবা।"
+    },
+    "active": true
+  },
+  {
+    "id": "hepatology",
+    "label": { "en": "Hepatology", "bn": "হেপাটোলজি" },
+    "synonyms": {
+      "en": ["liver centre", "hepatology clinic"],
+      "bn": ["লিভার সেন্টার", "হেপাটোলজি ক্লিনিক"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated liver-centre and hepatology services.",
+      "bn": "প্রদানকারী-ঘোষিত হেপাটোলজি সেবা।"
+    },
+    "active": true
+  },
+  {
+    "id": "nephrology",
+    "label": { "en": "Nephrology", "bn": "নেফ্রোলজি" },
+    "synonyms": {
+      "en": ["kidney centre", "dialysis unit"],
+      "bn": ["কিডনি সেন্টার", "ডায়ালিসিস ইউনিট"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated nephrology and dialysis units.",
+      "bn": "প্রদানকারী-ঘোষিত নেফ্রোলজি ও ডায়ালিসিস ইউনিট।"
+    },
+    "active": true
+  },
+  {
+    "id": "urology",
+    "label": { "en": "Urology", "bn": "ইউরোলজি" },
+    "synonyms": {
+      "en": ["urology clinic", "urological services"],
+      "bn": ["ইউরোলজি ক্লিনিক"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated urology services.",
+      "bn": "প্রদানকারী-ঘোষিত ইউরোলজি সেবা।"
+    },
+    "active": true
+  },
+  {
+    "id": "endocrinology",
+    "label": { "en": "Endocrinology", "bn": "এন্ডোক্রাইনোলজি" },
+    "synonyms": {
+      "en": ["diabetes clinic", "endocrine services"],
+      "bn": ["ডায়াবেটিস ক্লিনিক", "এন্ডোক্রাইন সেবা"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated endocrinology services.",
+      "bn": "প্রদানকারী-ঘোষিত এন্ডোক্রাইনোলজি সেবা।"
+    },
+    "active": true
+  },
+  {
+    "id": "pulmonology",
+    "label": { "en": "Pulmonology", "bn": "ফুসফুস বিভাগ" },
+    "synonyms": {
+      "en": ["respiratory medicine", "chest clinic", "lung centre"],
+      "bn": ["শ্বাসযন্ত্রের চিকিৎসা", "লাং সেন্টার"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated respiratory and pulmonology services.",
+      "bn": "প্রদানকারী-ঘোষিত ফুসফুস ও শ্বাসযন্ত্র সেবা।"
+    },
+    "active": true
+  },
+  {
+    "id": "rheumatology",
+    "label": { "en": "Rheumatology", "bn": "রিউমাটোলজি" },
+    "synonyms": {
+      "en": ["rheumatology clinic", "joint clinic"],
+      "bn": ["রিউমাটোলজি ক্লিনিক"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated rheumatology services.",
+      "bn": "প্রদানকারী-ঘোষিত রিউমাটোলজি সেবা।"
+    },
+    "active": true
+  },
+  {
+    "id": "dermatology",
+    "label": { "en": "Dermatology", "bn": "চর্মরোগ বিভাগ" },
+    "synonyms": {
+      "en": ["skin clinic", "dermatology services"],
+      "bn": ["স্কিন ক্লিনিক", "ডার্মাটোলজি"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated dermatology services.",
+      "bn": "প্রদানকারী-ঘোষিত চর্মরোগ সেবা।"
+    },
+    "active": true
+  },
+  {
+    "id": "plastic-reconstructive",
+    "label": { "en": "Plastic and reconstructive surgery", "bn": "প্লাস্টিক ও পুনর্গঠন শল্যচিকিৎসা" },
+    "synonyms": {
+      "en": ["reconstructive surgery", "plastic surgery unit"],
+      "bn": ["প্লাস্টিক সার্জারি ইউনিট"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated plastic and reconstructive surgery units.",
+      "bn": "প্রদানকারী-ঘোষিত প্লাস্টিক ও পুনর্গঠন শল্যচিকিৎসা।"
+    },
+    "active": true
+  },
+  {
+    "id": "paediatrics",
+    "label": { "en": "Paediatrics", "bn": "শিশু বিভাগ" },
+    "synonyms": {
+      "en": ["pediatrics", "children's clinic"],
+      "bn": ["পেডিয়াট্রিক্স", "শিশু ক্লিনিক"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated paediatric services.",
+      "bn": "প্রদানকারী-ঘোষিত শিশু সেবা।"
+    },
+    "active": true
+  },
+  {
+    "id": "ent",
+    "label": { "en": "Ear, nose and throat", "bn": "নাক, কান ও গলা" },
+    "synonyms": {
+      "en": ["ENT", "otolaryngology"],
+      "bn": ["ইএনটি", "নাক কান গলা"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated ENT and otolaryngology services.",
+      "bn": "প্রদানকারী-ঘোষিত নাক-কান-গলা সেবা।"
+    },
+    "active": true
+  },
+  {
+    "id": "rehabilitation",
+    "label": { "en": "Rehabilitation", "bn": "পুনর্বাসন" },
+    "synonyms": {
+      "en": ["physio", "rehabilitation centre", "physiotherapy"],
+      "bn": ["ফিজিওথেরাপি", "রিহ্যাব সেন্টার"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated rehabilitation and physiotherapy services.",
+      "bn": "প্রদানকারী-ঘোষিত পুনর্বাসন ও ফিজিওথেরাপি সেবা।"
+    },
+    "active": true
+  },
+  {
+    "id": "nuclear-medicine",
+    "label": { "en": "Nuclear medicine", "bn": "নিউক্লিয়ার মেডিসিন" },
+    "synonyms": {
+      "en": ["nuclear medicine department", "isotope imaging"],
+      "bn": ["নিউক্লিয়ার মেডিসিন বিভাগ"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated nuclear medicine departments.",
+      "bn": "প্রদানকারী-ঘোষিত নিউক্লিয়ার মেডিসিন বিভাগ।"
+    },
+    "active": true
+  },
+  {
+    "id": "internal-medicine",
+    "label": { "en": "Internal medicine", "bn": "ইন্টারনাল মেডিসিন" },
+    "synonyms": {
+      "en": ["general medicine", "internal medicine clinic"],
+      "bn": ["জেনারেল মেডিসিন", "ইন্টারনাল মেডিসিন ক্লিনিক"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated internal and general medicine services.",
+      "bn": "প্রদানকারী-ঘোষিত ইন্টারনাল মেডিসিন সেবা।"
+    },
+    "active": true
+  },
+  {
+    "id": "vascular-surgery",
+    "label": { "en": "Vascular surgery", "bn": "ভাস্কুলার সার্জারি" },
+    "synonyms": {
+      "en": ["vascular clinic", "vessel surgery unit"],
+      "bn": ["ভাস্কুলার ক্লিনিক"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated vascular surgery units.",
+      "bn": "প্রদানকারী-ঘোষিত ভাস্কুলার সার্জারি ইউনিট।"
+    },
+    "active": true
+  },
+  {
+    "id": "bariatric",
+    "label": { "en": "Weight-management surgery", "bn": "ওজন ব্যবস্থাপনা শল্যচিকিৎসা" },
+    "synonyms": {
+      "en": ["bariatric surgery", "weight management clinic"],
+      "bn": ["ব্যারিয়াট্রিক সার্জারি", "ওজন ব্যবস্থাপনা ক্লিনিক"]
+    },
+    "shortDescription": {
+      "en": "Provider-stated weight-management and bariatric surgery services.",
+      "bn": "প্রদানকারী-ঘোষিত ওজন ব্যবস্থাপনা শল্যচিকিৎসা সেবা।"
+    },
+    "active": true
+  }
+]
