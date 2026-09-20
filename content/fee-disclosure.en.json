@@ -1,0 +1,14 @@
+{
+  "version": "2026-09-20.1",
+  "locale": "en",
+  "chosenModel": "mixed",
+  "browseIsFree": "Browsing the MediQ directory is free.",
+  "patientFeeBeforeConsent": "If you send an information request, MediQ charges a navigation fee. The amount is shown below before you consent. This is not a medical or hospital fee.",
+  "patientFeeAmountPlaceholder": "Navigation fee: amount pending finance approval.",
+  "patientFeeRefund": "If MediQ has not yet contacted a provider about your request, you may request a full refund of the navigation fee. Hospital or clinical fees are never charged or refunded by MediQ.",
+  "providerCompensation": "Some hospitals pay MediQ a contracted listing or administration fee. That payment never changes the unlabeled directory order.",
+  "sponsoredDisclosure": "A listing marked Sponsored is a paid placement. Open Fees to see how this works.",
+  "noKickbacks": "MediQ does not accept undisclosed per-patient referral payments.",
+  "invoiceOwner": "MediQ, or its named billing entity, issues the invoice for any navigation fee you pay.",
+  "notMedicalFee": "Nothing you pay MediQ is payment for diagnosis, treatment, or a hospital appointment."
+}
