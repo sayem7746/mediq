@@ -5,10 +5,21 @@ import { getLocale } from "next-intl/server";
 import { getDb } from "@/lib/db";
 import { submitInformationRequest } from "@/lib/requests/submit";
 
+export type RequestFormValues = {
+  name: string;
+  contactMethod: string;
+  contactValue: string;
+  preferredLanguage: string;
+  providerSlug: string;
+  categoryId: string;
+  message: string;
+};
+
 export type RequestFormState = {
   error?: string;
   token?: string;
   honeypot?: boolean;
+  values?: RequestFormValues;
 };
 
 export async function submitRequestAction(
@@ -32,9 +43,18 @@ export async function submitRequestAction(
     consent: formData.get("consent") === "on",
     website: String(formData.get("website") ?? ""),
   };
+  const values = {
+    name: raw.name,
+    contactMethod: raw.contactMethod,
+    contactValue: raw.contactValue,
+    preferredLanguage: raw.preferredLanguage,
+    providerSlug: raw.providerSlug ?? "",
+    categoryId: raw.categoryId ?? "",
+    message: raw.message,
+  };
   const result = submitInformationRequest(getDb(), raw, { ip, locale });
   if (!result.ok) {
-    return { error: result.error };
+    return { error: result.error, values };
   }
-  return { token: result.token, honeypot: result.honeypot };
+  return { token: result.token, honeypot: result.honeypot, values };
 }

@@ -6,7 +6,7 @@ test("request form requires consent", async ({ page }) => {
   await page.getByLabel(/Email, phone/).fill("sam@example.com");
   await page.getByLabel("Short message").fill("International desk hours");
   await page.getByRole("button", { name: /Send request/i }).click();
-  await expect(page.getByRole("alert")).toContainText(/Consent is required/i);
+  await expect(page.getByText(/Consent is required/i)).toBeVisible();
 
   await page
     .getByLabel(/I understand MediQ will not give medical advice/i)

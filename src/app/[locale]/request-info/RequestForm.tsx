@@ -35,6 +35,7 @@ export function RequestForm({
   const t = useTranslations("request");
   const [state, action] = useActionState(submitRequestAction, initial);
   const loc = locale === "bn" ? "bn" : "en";
+  const values = state.values;
 
   if (state.token) {
     return (
@@ -77,6 +78,7 @@ export function RequestForm({
         <input
           name="name"
           required
+          defaultValue={values?.name}
           className="tap-target rounded border border-slate-300 px-3"
         />
       </label>
@@ -84,6 +86,7 @@ export function RequestForm({
         {t("contactMethod")}
         <select
           name="contactMethod"
+          defaultValue={values?.contactMethod ?? "email"}
           className="tap-target rounded border border-slate-300 px-3"
         >
           <option value="email">{t("email")}</option>
@@ -96,6 +99,7 @@ export function RequestForm({
         <input
           name="contactValue"
           required
+          defaultValue={values?.contactValue}
           className="tap-target rounded border border-slate-300 px-3"
         />
       </label>
@@ -103,7 +107,7 @@ export function RequestForm({
         {t("preferredLanguage")}
         <select
           name="preferredLanguage"
-          defaultValue={locale}
+          defaultValue={values?.preferredLanguage ?? locale}
           className="tap-target rounded border border-slate-300 px-3"
         >
           <option value="en">English</option>
@@ -114,7 +118,7 @@ export function RequestForm({
         {t("provider")}
         <select
           name="providerSlug"
-          defaultValue={defaultProvider ?? ""}
+          defaultValue={values?.providerSlug ?? defaultProvider ?? ""}
           className="tap-target rounded border border-slate-300 px-3"
         >
           <option value="">{t("chooseOne")}</option>
@@ -129,6 +133,7 @@ export function RequestForm({
         {t("category")}
         <select
           name="categoryId"
+          defaultValue={values?.categoryId ?? ""}
           className="tap-target rounded border border-slate-300 px-3"
         >
           <option value="" />
@@ -144,6 +149,7 @@ export function RequestForm({
         <textarea
           name="message"
           required
+          defaultValue={values?.message}
           rows={4}
           className="rounded border border-slate-300 px-3 py-2"
         />
