@@ -1,0 +1,21 @@
+{
+  "version": "2026-09-20.1",
+  "locale": "en",
+  "prohibitedPhrases": [
+    "you may have",
+    "best hospital",
+    "we recommend",
+    "guaranteed successful",
+    "tell us your symptoms",
+    "chest pain",
+    "heart attack"
+  ],
+  "templates": {
+    "receivedAck": "We received your information request. MediQ is information and navigation only. We will not give medical advice. If this is urgent, contact local emergency services.",
+    "providerContacted": "We have contacted the listed hospital using the official contact on its profile. This is not an appointment confirmation.",
+    "providerResponse": "The listed hospital has replied. Please read their message and confirm details directly with them. MediQ does not interpret clinical content.",
+    "closed": "We have closed this navigation request. You can still contact the hospital directly using the official website or phone on its profile.",
+    "missingInfo": "We need a non-clinical contact detail to route this request. Please do not send medical records.",
+    "complaintAck": "We logged your complaint about a listing, fee, or request handling. This is not a clinical complaints process."
+  }
+}
