@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "title": "MediQ — find listed Malaysian hospitals",
+    "description": "Information and navigation only. Browse listed Malaysian hospitals and send a consented information request. Not medical advice or emergency care."
+  },
+  "nav": {
+    "logo": "MediQ",
+    "howItWorks": "How it works",
+    "directory": "Directory",
+    "language": "Language",
+    "english": "English",
+    "bangla": "বাংলা",
+    "skipToContent": "Skip to content"
+  },
+  "home": {
+    "title": "Find listed Malaysian hospitals",
+    "intro": "MediQ helps Bangladeshi patients browse provider-stated hospital services in Malaysia and send a consented information request. We do not diagnose or recommend treatment.",
+    "searchName": "Hospital name",
+    "searchSpecialty": "Service category",
+    "searchCity": "City",
+    "searchSubmit": "Search directory",
+    "categoriesHeading": "Browse service categories",
+    "symptomsHelper": "Search by hospital name or directory category. Do not enter symptoms.",
+    "trustTitle": "Information and navigation only",
+    "betaNotice": "General launch is not enabled. This is a limited beta until launch gates are approved."
+  },
+  "filters": {
+    "legend": "Directory filters",
+    "q": "Hospital name",
+    "specialty": "Service category",
+    "city": "City",
+    "language": "Language",
+    "verification": "Verification",
+    "verified": "Verified and current",
+    "all": "All published",
+    "international": "Lists an international-patient contact",
+    "reset": "Reset filters",
+    "apply": "Apply filters",
+    "any": "Any",
+    "sponsoredHeading": "Sponsored listings",
+    "organicHeading": "Directory results",
+    "howOrdered": "How results are ordered",
+    "emptyTitle": "No listings match these filters",
+    "emptyBody": "Browse a service category below. MediQ does not give medical advice.",
+    "browseCategories": "Browse categories",
+    "count": "{count} listings"
+  },
+  "profile": {
+    "branch": "Branch",
+    "city": "City",
+    "offerings": "Stated services",
+    "languages": "Languages",
+    "internationalContact": "International patient contact",
+    "website": "Official website",
+    "source": "Source",
+    "verifiedAt": "Verified on",
+    "nextReview": "Next review",
+    "enquiryCta": "Request information",
+    "stale": "Verification review is due. Confirm details with the provider."
+  },
+  "request": {
+    "title": "Request information",
+    "name": "Your name",
+    "contactMethod": "How should we contact you?",
+    "contactValue": "Email, phone, or WhatsApp number",
+    "preferredLanguage": "Preferred language",
+    "provider": "Listed hospital",
+    "category": "Service category",
+    "message": "Short message",
+    "submit": "Send request",
+    "warning": "Do not send urgent messages or medical records. MediQ cannot handle emergencies or clinical documents.",
+    "honeypot": "Leave this field blank",
+    "successTitle": "Request received",
+    "successBody": "We stored a minimised navigation request. Track status with your private link. You can also contact the hospital directly.",
+    "statusLink": "Open your request status",
+    "email": "Email",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "chooseOne": "Choose a hospital or a category, not both.",
+    "errorInvalid": "Please check the form fields.",
+    "errorConsent": "Consent is required before we can route this request.",
+    "errorRate": "Too many requests from this network. Please wait and try again."
+  },
+  "status": {
+    "title": "Request status",
+    "received": "Received",
+    "beingRouted": "Being routed",
+    "providerContacted": "Provider contacted",
+    "providerResponseReceived": "Provider response received",
+    "closed": "Closed",
+    "invalid": "This link is not valid. If you still need help, send a new request or contact the hospital directly.",
+    "notClinical": "These statuses are operational only. They are not clinical updates."
+  },
+  "trust": {
+    "title": "Trust and how MediQ works",
+    "rankingLink": "How results are ordered"
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "intro": "Browse listed hospitals, filter by name or service category, and optionally send a consented information request. MediQ does not triage, diagnose, or book care."
+  },
+  "fees": {
+    "title": "Fees"
+  },
+  "privacy": {
+    "title": "Privacy"
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Use this form for listing, fee, or request-handling questions. Do not send medical records or urgent clinical questions.",
+    "submit": "Send message",
+    "success": "We recorded your message. This is not a clinical complaints process."
+  },
+  "admin": {
+    "loginTitle": "Staff sign in",
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign in",
+    "requests": "Requests",
+    "providers": "Providers",
+    "operations": "Operations",
+    "assign": "Assign owner",
+    "close": "Close",
+    "reason": "Closure reason",
+    "publish": "Publish",
+    "saveDraft": "Save draft",
+    "templates": "Templates",
+    "prohibitedFlag": "Template contains a prohibited phrase",
+    "status": "Status",
+    "owner": "Owner",
+    "language": "Language",
+    "fromDate": "From",
+    "toDate": "To",
+    "conversion": "Request conversion",
+    "firstResponse": "First response",
+    "staleRate": "Stale listing rate",
+    "complaints": "Complaints opened"
+  },
+  "errors": {
+    "notFoundTitle": "Page not found",
+    "notFoundBody": "That page is not in the MediQ directory. Browse listed hospitals or return home.",
+    "unexpectedTitle": "Something went wrong",
+    "unexpectedBody": "Please try again. If you need care now, contact local emergency services.",
+    "tryAgain": "Try again",
+    "home": "Back to home"
+  },
+  "common": {
+    "verified": "Verified",
+    "unverified": "Unverified",
+    "stale": "Review due",
+    "emergency": "Emergency",
+    "footerDisclaimer": "MediQ is information and navigation only."
+  }
+}
