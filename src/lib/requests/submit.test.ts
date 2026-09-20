@@ -41,6 +41,16 @@ describe("submitInformationRequest", () => {
     );
     expect(result.ok).toBe(false);
     if (!result.ok) expect(result.error).toBe("consent");
+    const consentEvents = sqlite
+      .prepare(
+        "select count(*) as n from analytics_events where name = 'consent_rejected'",
+      )
+      .get() as { n: number };
+    expect(consentEvents.n).toBe(1);
+    const requests = sqlite
+      .prepare("select count(*) as n from navigation_requests")
+      .get() as { n: number };
+    expect(requests.n).toBe(0);
     sqlite.close();
   });
 
@@ -65,7 +75,7 @@ describe("submitInformationRequest", () => {
   it("rate-limits repeated submits from the same IP", () => {
     resetRateLimit();
     const { db, sqlite } = createDb(":memory:");
-    for (let i = 0; i < 5; i += 1) {
+    for (let i = 0; i < 50; i += 1) {
       const result = submitInformationRequest(db, valid, {
         ip: "9.9.9.9",
         locale: "en",

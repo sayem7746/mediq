@@ -8,10 +8,11 @@ Allowlisted events only. Never send free-text enquiry bodies, contact values, or
 | `filter_applied` | A filter other than empty default is applied |
 | `provider_profile_viewed` | Published profile rendered |
 | `request_submitted` | Consented request stored |
+| `consent_rejected` | Enquiry submit missing required consent |
 | `staff_first_response` | First status move off `received` |
 | `listing_stale` | Daily stale job flags a listing |
 | `complaint_opened` | Complaint logged from contact/ops |
 
 Shared fields: `version` (integer), `locale`, `anonymizedRef`, `timestamp`. Implementation: `src/lib/analytics.ts`.
 
-`/admin/operations` shows conversion (requests / profile views), first-response count, stale rate, and complaints. It does not use payment to rank.
+`/admin/operations` shows conversion (requests / profile views), first-response count, stale rate, complaints, and the weekly beta report (request volume, first-response SLA, consent errors, stale listings, complaints, sponsored-label defects). It does not use payment to rank.

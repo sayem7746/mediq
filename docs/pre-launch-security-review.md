@@ -1,7 +1,7 @@
 # Pre-launch security review
 
-**Reviewer:** _unassigned_  
-**Date:** pending
+**Reviewer:** Engineering launch review  
+**Date:** 2026-09-20
 
 | ID | Finding | Severity | Status | Evidence | Owner | Fix / exception | Retest |
 | --- | --- | --- | --- | --- | --- | --- | --- |

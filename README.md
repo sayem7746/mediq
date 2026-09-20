@@ -22,7 +22,7 @@ Open [http://localhost:3000](http://localhost:3000). Locale prefixes are `/en` a
 
 Never commit secrets. `.env*` is gitignored except `.env.example`.
 
-Test-only hospitals load when `TEST_FIXTURES=1` or `NODE_ENV=test`. Do not treat those fixtures as production listings.
+Test-only hospitals load when `TEST_FIXTURES=1` or `NODE_ENV=test`. Do not treat those fixtures as production listings. Official-source launch listings live in `data/providers/launch-set.json`.
 
 ## Scripts
 
@@ -46,6 +46,7 @@ Test-only hospitals load when `TEST_FIXTURES=1` or `NODE_ENV=test`. Do not treat
 - [Service boundary](docs/service-boundary.md)
 - [Revenue disclosure](docs/revenue-disclosure.md)
 - [Legal review checklist](docs/legal-review-checklist.md)
+- [Legal required changes](docs/legal-required-changes.md)
 - [Open legal questions](docs/open-legal-questions.md)
 - [Provider agreement requirements](docs/provider-agreement-requirements.md)
 - [Directory ranking policy](docs/directory-ranking-policy.md)
@@ -61,6 +62,8 @@ Test-only hospitals load when `TEST_FIXTURES=1` or `NODE_ENV=test`. Do not treat
 - [Analytics event schema](docs/analytics-event-schema.md)
 - [Beta launch checklist](docs/beta-launch-checklist.md)
 - [Beta issue log](docs/beta-issue-log.md)
+- [Limited beta dry run](docs/limited-beta-dry-run.md)
+- [Launch directory verification log](data/providers/verification-log.md)
 
 Approved legal strings live in [`content/`](content/README.md). UI must import them; do not duplicate legal copy in JSX.
 

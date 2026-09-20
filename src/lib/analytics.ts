@@ -8,6 +8,7 @@ export const ANALYTICS_EVENTS = [
   "filter_applied",
   "provider_profile_viewed",
   "request_submitted",
+  "consent_rejected",
   "staff_first_response",
   "listing_stale",
   "complaint_opened",

@@ -4,6 +4,7 @@ import {
   providers,
 } from "@/lib/db/schema";
 import type { AppDatabase } from "@/lib/db";
+import { getEnv } from "@/lib/env";
 
 export type OperationsSnapshot = {
   conversion: number;
@@ -45,11 +46,11 @@ export function getWeeklyBetaReport(db: AppDatabase) {
     period: "weekly",
     requestVolume: snapshot.requests,
     firstResponseSlaEvents: snapshot.firstResponseCount,
-    consentErrors: events.filter((row) => row.name === "complaint_opened")
+    consentErrors: events.filter((row) => row.name === "consent_rejected")
       .length,
     staleListings: snapshot.staleRate,
     complaints: snapshot.complaints,
     sponsoredLabelDefects: 0,
-    generalLaunchEnabled: false,
+    generalLaunchEnabled: getEnv().GENERAL_LAUNCH_ENABLED,
   };
 }

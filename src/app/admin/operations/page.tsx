@@ -35,8 +35,10 @@ export default async function OperationsPage() {
       <ul className="mt-3 grid gap-2 text-sm">
         <li>Request volume: {weekly.requestVolume}</li>
         <li>First-response events: {weekly.firstResponseSlaEvents}</li>
+        <li>Consent errors: {weekly.consentErrors}</li>
         <li>Complaints: {weekly.complaints}</li>
         <li>Stale listing rate: {weekly.staleListings.toFixed(2)}</li>
+        <li>Sponsored-label defects: {weekly.sponsoredLabelDefects}</li>
         <li>
           General launch enabled: {weekly.generalLaunchEnabled ? "yes" : "no"}
         </li>

@@ -6,7 +6,7 @@ import { InformationRequestSchema } from "@/lib/schemas/request";
 import { checkRateLimit } from "@/lib/rate-limit";
 import { storeAccessToken } from "@/lib/request-access";
 import { getDisclosures } from "@/lib/content";
-import { recordAnalyticsEvent } from "@/lib/analytics";
+import { anonymizeRef, recordAnalyticsEvent } from "@/lib/analytics";
 
 export type SubmitContext = {
   ip: string;
@@ -39,6 +39,11 @@ export function submitInformationRequest(
     input.consent !== "true" &&
     input.consent !== "on"
   ) {
+    recordAnalyticsEvent(db, {
+      name: "consent_rejected",
+      locale: ctx.locale,
+      anonymizedRef: anonymizeRef(ctx.ip),
+    });
     return { ok: false, error: "consent" };
   }
 
