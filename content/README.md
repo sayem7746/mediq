@@ -19,9 +19,9 @@ This folder holds **versioned** English and Bangla copy that appears on enquiry,
 
 | File | Counsel | Native Bangla | Status |
 | --- | --- | --- | --- |
-| `disclosures.en.json` | pending | n/a | draft |
-| `disclosures.bn.json` | pending | pending | draft |
-| `fee-disclosure.en.json` | pending | n/a | draft |
-| `fee-disclosure.bn.json` | pending | pending | draft |
+| `disclosures.en.json` | pending — [LC-04](../docs/legal-required-changes.md) | n/a | language-reviewed draft |
+| `disclosures.bn.json` | pending — [LC-04](../docs/legal-required-changes.md) | reviewed 2026-09-20 | language-reviewed draft |
+| `fee-disclosure.en.json` | pending — [LC-09](../docs/legal-required-changes.md) | n/a | language-reviewed draft |
+| `fee-disclosure.bn.json` | pending — [LC-09](../docs/legal-required-changes.md) | reviewed 2026-09-20 | language-reviewed draft |
 
-Unit tests compare locale key sets and fail if a key is missing.
+See [language-review.md](./language-review.md). Unit tests compare locale key sets and fail if a key is missing.
