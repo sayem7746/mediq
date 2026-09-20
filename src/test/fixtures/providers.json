@@ -1,0 +1,130 @@
+[
+  {
+    "id": "hosp-alpha",
+    "slug": "fixture-alpha-medical-centre",
+    "legalName": "Fixture Alpha Medical Centre Sdn Bhd",
+    "displayName": "Fixture Alpha Medical Centre",
+    "branch": { "city": "Kuala Lumpur", "country": "Malaysia", "name": "KL Campus" },
+    "publicContact": { "phone": "+60-3-0000-1001", "email": "info@alpha.example" },
+    "officialWebsite": "https://alpha.example",
+    "offeringIds": ["cardiology", "cardiac-surgery", "health-check"],
+    "source": { "url": "https://alpha.example/services", "kind": "official_website" },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-06-01T00:00:00.000Z",
+      "reviewer": "directory-ops-fixture"
+    },
+    "nextReviewAt": "2027-06-01T00:00:00.000Z",
+    "relationship": "published",
+    "sponsored": false,
+    "published": true,
+    "languages": ["en", "bn", "ms"],
+    "internationalPatientContact": {
+      "phone": "+60-3-0000-1099",
+      "email": "international@alpha.example"
+    }
+  },
+  {
+    "id": "hosp-beta",
+    "slug": "fixture-beta-medical-centre",
+    "legalName": "Fixture Beta Medical Centre Sdn Bhd",
+    "displayName": "Fixture Beta Medical Centre",
+    "branch": { "city": "Penang", "country": "Malaysia", "name": "Island Campus" },
+    "publicContact": { "phone": "+60-4-0000-2001", "email": "info@beta.example" },
+    "officialWebsite": "https://beta.example",
+    "offeringIds": ["oncology", "radiation-oncology"],
+    "source": { "url": "https://beta.example/oncology", "kind": "official_website" },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-05-15T00:00:00.000Z",
+      "reviewer": "directory-ops-fixture"
+    },
+    "nextReviewAt": "2027-05-15T00:00:00.000Z",
+    "relationship": "contracted",
+    "sponsored": true,
+    "published": true,
+    "languages": ["en", "zh"],
+    "internationalPatientContact": { "email": "intl@beta.example" }
+  },
+  {
+    "id": "hosp-gamma",
+    "slug": "fixture-gamma-medical-centre",
+    "legalName": "Fixture Gamma Medical Centre Sdn Bhd",
+    "displayName": "Fixture Gamma Medical Centre",
+    "branch": { "city": "Johor Bahru", "country": "Malaysia" },
+    "publicContact": { "phone": "+60-7-0000-3001" },
+    "officialWebsite": "https://gamma.example",
+    "offeringIds": ["orthopedics", "sports-medicine"],
+    "source": { "url": "https://gamma.example/ortho", "kind": "official_website" },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2025-01-10T00:00:00.000Z",
+      "reviewer": "directory-ops-fixture"
+    },
+    "nextReviewAt": "2026-01-10T00:00:00.000Z",
+    "relationship": "published",
+    "sponsored": false,
+    "published": true,
+    "languages": ["en", "ms"]
+  },
+  {
+    "id": "hosp-delta",
+    "slug": "fixture-delta-medical-centre",
+    "legalName": "Fixture Delta Medical Centre Sdn Bhd",
+    "displayName": "Fixture Delta Medical Centre",
+    "branch": { "city": "Kuala Lumpur", "country": "Malaysia" },
+    "publicContact": { "email": "draft@delta.example" },
+    "officialWebsite": "https://delta.example",
+    "offeringIds": ["dental", "oral-surgery"],
+    "source": { "url": "https://delta.example/dental", "kind": "official_website" },
+    "verification": { "status": "unverified" },
+    "nextReviewAt": "2027-12-01T00:00:00.000Z",
+    "relationship": "invited",
+    "sponsored": false,
+    "published": false,
+    "languages": ["en"]
+  },
+  {
+    "id": "hosp-epsilon",
+    "slug": "fixture-epsilon-medical-centre",
+    "legalName": "Fixture Epsilon Medical Centre Sdn Bhd",
+    "displayName": "Fixture Epsilon Medical Centre",
+    "branch": { "city": "Kuala Lumpur", "country": "Malaysia", "name": "City Campus" },
+    "publicContact": { "phone": "+60-3-0000-5001", "email": "info@epsilon.example" },
+    "officialWebsite": "https://epsilon.example",
+    "offeringIds": ["fertility", "gynaecology"],
+    "source": { "url": "https://epsilon.example/fertility", "kind": "official_website" },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-07-01T00:00:00.000Z",
+      "reviewer": "directory-ops-fixture"
+    },
+    "nextReviewAt": "2027-07-01T00:00:00.000Z",
+    "relationship": "published",
+    "sponsored": false,
+    "published": true,
+    "languages": ["en", "bn"],
+    "internationalPatientContact": { "phone": "+60-3-0000-5099" }
+  },
+  {
+    "id": "hosp-zeta",
+    "slug": "fixture-zeta-medical-centre",
+    "legalName": "Fixture Zeta Medical Centre Sdn Bhd",
+    "displayName": "Fixture Zeta Medical Centre",
+    "branch": { "city": "Malacca", "country": "Malaysia" },
+    "publicContact": { "phone": "+60-6-0000-6001", "email": "info@zeta.example" },
+    "officialWebsite": "https://zeta.example",
+    "offeringIds": ["ophthalmology", "ent"],
+    "source": { "url": "https://zeta.example/eye", "kind": "official_website" },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-04-20T00:00:00.000Z",
+      "reviewer": "directory-ops-fixture"
+    },
+    "nextReviewAt": "2027-04-20T00:00:00.000Z",
+    "relationship": "contracted",
+    "sponsored": true,
+    "published": true,
+    "languages": ["en", "ms", "bn"]
+  }
+]
