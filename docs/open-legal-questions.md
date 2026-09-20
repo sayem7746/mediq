@@ -2,9 +2,10 @@
 
 **Status:** Launch blockers until counsel answers  
 **Owner:** Legal coordinator — MediQ  
-**Created:** 2026-09-20
+**Created:** 2026-09-20  
+**Last reviewed:** 2026-09-20
 
-These questions are for qualified Malaysian and Bangladeshi counsel / privacy advisors. Engineering must not invent answers.
+These questions are for qualified Malaysian and Bangladeshi counsel / privacy advisors. Engineering must not invent answers. Required changes are listed in [legal-required-changes.md](./legal-required-changes.md).
 
 ## Entity and operations
 
@@ -40,4 +41,18 @@ These questions are for qualified Malaysian and Bangladeshi counsel / privacy ad
 
 | ID | Question | Owner | Status | Counsel response link | Due |
 | --- | --- | --- | --- | --- | --- |
-| LQ-01 to LQ-15 | See above | Legal coordinator | open | | before beta |
+| LQ-01 | Offering entity vs contracting entity | Legal coordinator | changes-required | [LC-01](./legal-required-changes.md) | before general launch |
+| LQ-02 | Local registration / licence | Legal coordinator | changes-required | [LC-02](./legal-required-changes.md) | before general launch |
+| LQ-03 | Advertising and consumer-protection rules | Legal coordinator | changes-required | [LC-07](./legal-required-changes.md) | before general launch |
+| LQ-04 | Lawful basis for enquiry data | Privacy lead | changes-required | [LC-03](./legal-required-changes.md) | before general launch |
+| LQ-05 | Cross-border transfer tool | Privacy lead | changes-required | [LC-03](./legal-required-changes.md) | before general launch |
+| LQ-06 | Retention periods | Privacy lead | changes-required | [LC-05](./legal-required-changes.md) | before general launch |
+| LQ-07 | Access / deletion SLA | Privacy lead | changes-required | [LC-05](./legal-required-changes.md) | before general launch |
+| LQ-08 | EN/BN disclosure adequacy | Privacy lead | changes-required | [LC-04](./legal-required-changes.md) | before general launch |
+| LQ-09 | Emergency wording duty of care | Privacy lead | changes-required | [LC-06](./legal-required-changes.md) | before general launch |
+| LQ-10 | Fee / sponsored placement on cards | Product Owner | changes-required | [LC-06](./legal-required-changes.md) | before general launch |
+| LQ-11 | Mixed revenue model lawfulness | Legal coordinator | changes-required | [LC-09](./legal-required-changes.md) | before general launch |
+| LQ-12 | Provider agreement contents | Legal coordinator | changes-required | [LC-08](./legal-required-changes.md) | before general launch |
+| LQ-13 | Invoice entity and refunds | Finance + Legal | changes-required | [LC-09](./legal-required-changes.md) | before general launch |
+| LQ-14 | Published complaint / regulator route | Operations lead | changes-required | [LC-10](./legal-required-changes.md) | before general launch |
+| LQ-15 | Breach-notification clocks | Privacy lead | changes-required | [LC-03](./legal-required-changes.md) | before general launch |
