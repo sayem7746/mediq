@@ -1,0 +1,567 @@
+[
+  {
+    "id": "hosp-ijn",
+    "slug": "institut-jantung-negara",
+    "legalName": "Institut Jantung Negara",
+    "displayName": "Institut Jantung Negara",
+    "branch": { "city": "Kuala Lumpur", "country": "Malaysia", "name": "Jalan Tun Razak" },
+    "publicContact": { "phone": "+603-2617-8200" },
+    "officialWebsite": "https://www.ijn.com.my",
+    "offeringIds": ["cardiology", "cardiac-surgery", "paediatrics"],
+    "source": { "url": "https://www.ijn.com.my", "kind": "official_website" },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-20T11:00:00.000Z",
+      "reviewer": "directory-ops-launch-set"
+    },
+    "nextReviewAt": "2027-09-20T11:00:00.000Z",
+    "relationship": "published",
+    "sponsored": false,
+    "published": true,
+    "languages": ["en", "ms"]
+  },
+  {
+    "id": "hosp-sunway-city",
+    "slug": "sunway-medical-centre",
+    "legalName": "Sunway Medical Centre",
+    "displayName": "Sunway Medical Centre",
+    "branch": { "city": "Petaling Jaya", "country": "Malaysia", "name": "Sunway City" },
+    "publicContact": { "phone": "+603-7491-9191" },
+    "officialWebsite": "https://www.sunwaymedical.com",
+    "offeringIds": [
+      "cardiology",
+      "pulmonology",
+      "vascular-surgery",
+      "oncology",
+      "neurology",
+      "gastroenterology",
+      "hepatology",
+      "orthopedics",
+      "gynaecology",
+      "paediatrics",
+      "ophthalmology",
+      "urology",
+      "rehabilitation",
+      "health-check"
+    ],
+    "source": { "url": "https://www.sunwaymedical.com", "kind": "official_website" },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-20T11:00:00.000Z",
+      "reviewer": "directory-ops-launch-set"
+    },
+    "nextReviewAt": "2027-09-20T11:00:00.000Z",
+    "relationship": "published",
+    "sponsored": false,
+    "published": true,
+    "languages": ["en", "ms"],
+    "internationalPatientContact": { "phone": "+603-7491-9191" }
+  },
+  {
+    "id": "hosp-prince-court",
+    "slug": "prince-court-medical-centre",
+    "legalName": "Prince Court Medical Centre",
+    "displayName": "Prince Court Medical Centre",
+    "branch": { "city": "Kuala Lumpur", "country": "Malaysia" },
+    "publicContact": { "phone": "+603-2160-0999", "email": "enquiries@princecourt.com" },
+    "officialWebsite": "https://www.princecourt.com",
+    "offeringIds": [
+      "orthopedics",
+      "bariatric",
+      "cardiology",
+      "health-check",
+      "oncology",
+      "ophthalmology",
+      "obstetrics",
+      "neurology"
+    ],
+    "source": { "url": "https://www.princecourt.com", "kind": "official_website" },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-20T11:00:00.000Z",
+      "reviewer": "directory-ops-launch-set"
+    },
+    "nextReviewAt": "2027-09-20T11:00:00.000Z",
+    "relationship": "published",
+    "sponsored": false,
+    "published": true,
+    "languages": ["en", "ms"],
+    "internationalPatientContact": { "email": "enquiries@princecourt.com" }
+  },
+  {
+    "id": "hosp-gleneagles-kl",
+    "slug": "gleneagles-hospital-kuala-lumpur",
+    "legalName": "Gleneagles Hospital Kuala Lumpur",
+    "displayName": "Gleneagles Hospital Kuala Lumpur",
+    "branch": { "city": "Kuala Lumpur", "country": "Malaysia", "name": "Jalan Ampang" },
+    "publicContact": { "phone": "+603-4141-3000" },
+    "officialWebsite": "https://www.gleneagles.com.my/kuala-lumpur",
+    "offeringIds": [
+      "cardiology",
+      "oncology",
+      "orthopedics",
+      "paediatrics",
+      "obstetrics",
+      "gynaecology"
+    ],
+    "source": { "url": "https://www.gleneagles.com.my/kuala-lumpur", "kind": "official_website" },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-20T11:00:00.000Z",
+      "reviewer": "directory-ops-launch-set"
+    },
+    "nextReviewAt": "2027-09-20T11:00:00.000Z",
+    "relationship": "published",
+    "sponsored": false,
+    "published": true,
+    "languages": ["en", "ms"]
+  },
+  {
+    "id": "hosp-island",
+    "slug": "island-hospital",
+    "legalName": "Island Hospital",
+    "displayName": "Island Hospital",
+    "branch": { "city": "Penang", "country": "Malaysia", "name": "George Town" },
+    "publicContact": { "phone": "+604-238-3388", "email": "info@islandhospital.com" },
+    "officialWebsite": "https://www.islandhospital.com",
+    "offeringIds": [
+      "cardiology",
+      "oncology",
+      "radiation-oncology",
+      "neurology",
+      "paediatrics",
+      "gastroenterology",
+      "health-check",
+      "dental"
+    ],
+    "source": { "url": "https://www.islandhospital.com", "kind": "official_website" },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-20T11:00:00.000Z",
+      "reviewer": "directory-ops-launch-set"
+    },
+    "nextReviewAt": "2027-09-20T11:00:00.000Z",
+    "relationship": "published",
+    "sponsored": false,
+    "published": true,
+    "languages": ["en", "ms"],
+    "internationalPatientContact": { "phone": "+604-238-3333" }
+  },
+  {
+    "id": "hosp-pantai-kl",
+    "slug": "pantai-hospital-kuala-lumpur",
+    "legalName": "Pantai Hospital Kuala Lumpur",
+    "displayName": "Pantai Hospital Kuala Lumpur",
+    "branch": { "city": "Kuala Lumpur", "country": "Malaysia" },
+    "publicContact": { "phone": "+603-2296-0888" },
+    "officialWebsite": "https://www.pantai.com.my/kuala-lumpur",
+    "offeringIds": [
+      "radiation-oncology",
+      "neurosurgery",
+      "cardiac-surgery",
+      "fertility",
+      "urology",
+      "paediatrics",
+      "neurology",
+      "obstetrics"
+    ],
+    "source": { "url": "https://www.pantai.com.my/kuala-lumpur", "kind": "official_website" },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-20T11:00:00.000Z",
+      "reviewer": "directory-ops-launch-set"
+    },
+    "nextReviewAt": "2027-09-20T11:00:00.000Z",
+    "relationship": "published",
+    "sponsored": false,
+    "published": true,
+    "languages": ["en", "ms"]
+  },
+  {
+    "id": "hosp-thomson-kd",
+    "slug": "thomson-hospital-kota-damansara",
+    "legalName": "Thomson Hospital Kota Damansara",
+    "displayName": "Thomson Hospital Kota Damansara",
+    "branch": { "city": "Petaling Jaya", "country": "Malaysia", "name": "Kota Damansara" },
+    "publicContact": { "phone": "+603-6287-1111" },
+    "officialWebsite": "https://www.thomsonhospitals.com",
+    "offeringIds": [
+      "cardiology",
+      "cardiac-surgery",
+      "oncology",
+      "orthopedics",
+      "fertility",
+      "gastroenterology",
+      "neurology",
+      "obstetrics",
+      "gynaecology",
+      "paediatrics",
+      "urology",
+      "internal-medicine"
+    ],
+    "source": { "url": "https://www.thomsonhospitals.com", "kind": "official_website" },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-20T11:00:00.000Z",
+      "reviewer": "directory-ops-launch-set"
+    },
+    "nextReviewAt": "2027-09-20T11:00:00.000Z",
+    "relationship": "published",
+    "sponsored": false,
+    "published": true,
+    "languages": ["en", "ms"],
+    "internationalPatientContact": { "phone": "+603-6287-1111" }
+  },
+  {
+    "id": "hosp-pah",
+    "slug": "penang-adventist-hospital",
+    "legalName": "Penang Adventist Hospital",
+    "displayName": "Penang Adventist Hospital",
+    "branch": { "city": "Penang", "country": "Malaysia", "name": "George Town" },
+    "publicContact": { "phone": "+604-222-7200", "email": "enquiry@pah.com.my" },
+    "officialWebsite": "https://www.pah.com.my",
+    "offeringIds": [
+      "oncology",
+      "neurology",
+      "pulmonology",
+      "orthopedics",
+      "cardiology",
+      "dental",
+      "health-check",
+      "paediatrics",
+      "ophthalmology"
+    ],
+    "source": { "url": "https://www.pah.com.my", "kind": "official_website" },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-20T11:00:00.000Z",
+      "reviewer": "directory-ops-launch-set"
+    },
+    "nextReviewAt": "2027-09-20T11:00:00.000Z",
+    "relationship": "published",
+    "sponsored": false,
+    "published": true,
+    "languages": ["en", "ms"]
+  },
+  {
+    "id": "hosp-beacon",
+    "slug": "beacon-hospital",
+    "legalName": "Beacon Hospital Sdn. Bhd.",
+    "displayName": "Beacon Hospital",
+    "branch": { "city": "Petaling Jaya", "country": "Malaysia" },
+    "publicContact": { "phone": "+603-7620-7979", "email": "info@beaconhospital.com.my" },
+    "officialWebsite": "https://www.beaconhospital.com.my",
+    "offeringIds": [
+      "oncology",
+      "radiation-oncology",
+      "nuclear-medicine",
+      "orthopedics",
+      "neurology",
+      "ophthalmology",
+      "urology",
+      "gynaecology",
+      "health-check"
+    ],
+    "source": { "url": "https://www.beaconhospital.com.my", "kind": "official_website" },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-20T11:00:00.000Z",
+      "reviewer": "directory-ops-launch-set"
+    },
+    "nextReviewAt": "2027-09-20T11:00:00.000Z",
+    "relationship": "published",
+    "sponsored": false,
+    "published": true,
+    "languages": ["en", "ms", "zh"]
+  },
+  {
+    "id": "hosp-mahkota",
+    "slug": "mahkota-medical-centre",
+    "legalName": "Mahkota Medical Centre",
+    "displayName": "Mahkota Medical Centre",
+    "branch": { "city": "Malacca", "country": "Malaysia" },
+    "publicContact": { "phone": "+606-285-2999" },
+    "officialWebsite": "https://www.mahkotamedical.com",
+    "offeringIds": [
+      "orthopedics",
+      "ent",
+      "paediatrics",
+      "obstetrics",
+      "gynaecology",
+      "fertility",
+      "health-check",
+      "cardiology",
+      "dental",
+      "oncology"
+    ],
+    "source": { "url": "https://www.mahkotamedical.com", "kind": "official_website" },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-20T11:00:00.000Z",
+      "reviewer": "directory-ops-launch-set"
+    },
+    "nextReviewAt": "2027-09-20T11:00:00.000Z",
+    "relationship": "published",
+    "sponsored": false,
+    "published": true,
+    "languages": ["en", "ms"]
+  },
+  {
+    "id": "hosp-gleneagles-penang",
+    "slug": "gleneagles-hospital-penang",
+    "legalName": "Gleneagles Hospital Penang",
+    "displayName": "Gleneagles Hospital Penang",
+    "branch": { "city": "Penang", "country": "Malaysia" },
+    "publicContact": { "phone": "+604-222-9111" },
+    "officialWebsite": "https://www.gleneagles.com.my/penang",
+    "offeringIds": [
+      "oncology",
+      "cardiology",
+      "orthopedics",
+      "haematology",
+      "gastroenterology",
+      "internal-medicine"
+    ],
+    "source": { "url": "https://www.gleneagles.com.my/penang", "kind": "official_website" },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-20T11:00:00.000Z",
+      "reviewer": "directory-ops-launch-set"
+    },
+    "nextReviewAt": "2027-09-20T11:00:00.000Z",
+    "relationship": "published",
+    "sponsored": false,
+    "published": true,
+    "languages": ["en", "ms"]
+  },
+  {
+    "id": "hosp-gleneagles-johor",
+    "slug": "gleneagles-hospital-johor",
+    "legalName": "Gleneagles Hospital Johor",
+    "displayName": "Gleneagles Hospital Johor",
+    "branch": { "city": "Johor Bahru", "country": "Malaysia" },
+    "publicContact": { "phone": "+607-560-1000" },
+    "officialWebsite": "https://www.gleneagles.com.my/johor",
+    "offeringIds": [
+      "cardiology",
+      "oncology",
+      "orthopedics",
+      "paediatrics",
+      "obstetrics",
+      "gynaecology",
+      "gastroenterology"
+    ],
+    "source": { "url": "https://www.gleneagles.com.my/johor", "kind": "official_website" },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-20T11:00:00.000Z",
+      "reviewer": "directory-ops-launch-set"
+    },
+    "nextReviewAt": "2027-09-20T11:00:00.000Z",
+    "relationship": "published",
+    "sponsored": false,
+    "published": true,
+    "languages": ["en", "ms"]
+  },
+  {
+    "id": "hosp-pantai-penang",
+    "slug": "pantai-hospital-penang",
+    "legalName": "Pantai Hospital Penang",
+    "displayName": "Pantai Hospital Penang",
+    "branch": { "city": "Penang", "country": "Malaysia", "name": "Bayan Lepas" },
+    "publicContact": { "phone": "+604-643-3888" },
+    "officialWebsite": "https://www.pantai.com.my/penang",
+    "offeringIds": [
+      "cardiology",
+      "cardiac-surgery",
+      "neurology",
+      "neurosurgery",
+      "orthopedics",
+      "radiation-oncology"
+    ],
+    "source": { "url": "https://www.pantai.com.my/penang", "kind": "official_website" },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-20T11:00:00.000Z",
+      "reviewer": "directory-ops-launch-set"
+    },
+    "nextReviewAt": "2027-09-20T11:00:00.000Z",
+    "relationship": "published",
+    "sponsored": false,
+    "published": true,
+    "languages": ["en", "ms"]
+  },
+  {
+    "id": "hosp-parkcity",
+    "slug": "parkcity-medical-centre",
+    "legalName": "SJP Medical Centres Sdn. Bhd.",
+    "displayName": "ParkCity Medical Centre",
+    "branch": { "city": "Kuala Lumpur", "country": "Malaysia", "name": "Desa ParkCity" },
+    "publicContact": { "phone": "+603-5639-1616" },
+    "officialWebsite": "https://www.parkcitymedicalcentre.com",
+    "offeringIds": ["cardiology", "internal-medicine"],
+    "source": { "url": "https://www.parkcitymedicalcentre.com", "kind": "official_website" },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-20T11:00:00.000Z",
+      "reviewer": "directory-ops-launch-set"
+    },
+    "nextReviewAt": "2027-09-20T11:00:00.000Z",
+    "relationship": "published",
+    "sponsored": false,
+    "published": true,
+    "languages": ["en", "ms"],
+    "internationalPatientContact": { "phone": "+603-5639-1616" }
+  },
+  {
+    "id": "hosp-ummc",
+    "slug": "university-malaya-medical-centre",
+    "legalName": "Pusat Perubatan Universiti Malaya",
+    "displayName": "University Malaya Medical Centre",
+    "branch": { "city": "Kuala Lumpur", "country": "Malaysia", "name": "Lembah Pantai" },
+    "publicContact": { "phone": "+603-7949-4422", "email": "ummc@ummc.edu.my" },
+    "officialWebsite": "https://www.ummc.edu.my",
+    "offeringIds": ["internal-medicine"],
+    "source": { "url": "https://www.ummc.edu.my", "kind": "official_website" },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-20T11:00:00.000Z",
+      "reviewer": "directory-ops-launch-set"
+    },
+    "nextReviewAt": "2027-09-20T11:00:00.000Z",
+    "relationship": "published",
+    "sponsored": false,
+    "published": true,
+    "languages": ["en", "ms"]
+  },
+  {
+    "id": "hosp-hkl",
+    "slug": "hospital-kuala-lumpur",
+    "legalName": "Hospital Kuala Lumpur",
+    "displayName": "Hospital Kuala Lumpur",
+    "branch": { "city": "Kuala Lumpur", "country": "Malaysia", "name": "Jalan Pahang" },
+    "publicContact": { "phone": "+603-2615-5555", "email": "pro.hkl@moh.gov.my" },
+    "officialWebsite": "https://hkl.moh.gov.my/en/",
+    "offeringIds": ["internal-medicine"],
+    "source": { "url": "https://hkl.moh.gov.my/en/", "kind": "official_website" },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-20T11:00:00.000Z",
+      "reviewer": "directory-ops-launch-set"
+    },
+    "nextReviewAt": "2027-09-20T11:00:00.000Z",
+    "relationship": "published",
+    "sponsored": false,
+    "published": true,
+    "languages": ["en", "ms"]
+  },
+  {
+    "id": "hosp-lohguanlye",
+    "slug": "lohguanlye-specialists-centre",
+    "legalName": "LohGuanLye Specialists Centre",
+    "displayName": "LohGuanLye Specialists Centre",
+    "branch": { "city": "Penang", "country": "Malaysia", "name": "George Town" },
+    "publicContact": { "phone": "+604-238-8187", "email": "lsc@lohguanlye.com" },
+    "officialWebsite": "https://www.lohguanlye.com",
+    "offeringIds": [
+      "oncology",
+      "radiation-oncology",
+      "cardiology",
+      "fertility",
+      "rehabilitation",
+      "haematology",
+      "neurology",
+      "ent"
+    ],
+    "source": { "url": "https://www.lohguanlye.com", "kind": "official_website" },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-20T11:00:00.000Z",
+      "reviewer": "directory-ops-launch-set"
+    },
+    "nextReviewAt": "2027-09-20T11:00:00.000Z",
+    "relationship": "published",
+    "sponsored": false,
+    "published": true,
+    "languages": ["en", "zh", "ms"]
+  },
+  {
+    "id": "hosp-sunway-velocity",
+    "slug": "sunway-medical-centre-velocity",
+    "legalName": "Sunway Medical Centre Velocity",
+    "displayName": "Sunway Medical Centre Velocity",
+    "branch": { "city": "Kuala Lumpur", "country": "Malaysia", "name": "Sunway Velocity" },
+    "publicContact": { "phone": "+603-9772-9191" },
+    "officialWebsite": "https://www.sunwaymedical.com/velocity",
+    "offeringIds": [
+      "obstetrics",
+      "gynaecology",
+      "cardiology",
+      "neurology",
+      "orthopedics",
+      "paediatrics"
+    ],
+    "source": { "url": "https://www.sunwaymedical.com/velocity", "kind": "official_website" },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-20T11:00:00.000Z",
+      "reviewer": "directory-ops-launch-set"
+    },
+    "nextReviewAt": "2027-09-20T11:00:00.000Z",
+    "relationship": "published",
+    "sponsored": false,
+    "published": true,
+    "languages": ["en", "ms"]
+  },
+  {
+    "id": "hosp-regency",
+    "slug": "regency-specialist-hospital",
+    "legalName": "Regency Specialist Hospital",
+    "displayName": "Regency Specialist Hospital",
+    "branch": { "city": "Johor Bahru", "country": "Malaysia", "name": "Masai / Seri Alam" },
+    "publicContact": { "phone": "+607-381-7700" },
+    "officialWebsite": "https://www.regencyspecialist.com",
+    "offeringIds": [
+      "cardiology",
+      "oncology",
+      "orthopedics",
+      "endocrinology",
+      "bariatric",
+      "gynaecology",
+      "health-check",
+      "nuclear-medicine"
+    ],
+    "source": { "url": "https://www.regencyspecialist.com", "kind": "official_website" },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-20T11:00:00.000Z",
+      "reviewer": "directory-ops-launch-set"
+    },
+    "nextReviewAt": "2027-09-20T11:00:00.000Z",
+    "relationship": "published",
+    "sponsored": false,
+    "published": true,
+    "languages": ["en", "ms"]
+  },
+  {
+    "id": "hosp-pantai-melaka",
+    "slug": "pantai-hospital-melaka",
+    "legalName": "Pantai Hospital Melaka",
+    "displayName": "Pantai Hospital Melaka",
+    "branch": { "city": "Malacca", "country": "Malaysia", "name": "Ayer Keroh" },
+    "publicContact": { "phone": "+606-231-9999" },
+    "officialWebsite": "https://www.pantai.com.my/ayer-keroh",
+    "offeringIds": ["internal-medicine"],
+    "source": { "url": "https://www.pantai.com.my/ayer-keroh", "kind": "official_website" },
+    "verification": {
+      "status": "verified",
+      "verifiedAt": "2026-09-20T11:00:00.000Z",
+      "reviewer": "directory-ops-launch-set"
+    },
+    "nextReviewAt": "2027-09-20T11:00:00.000Z",
+    "relationship": "published",
+    "sponsored": false,
+    "published": true,
+    "languages": ["en", "ms"]
+  }
+]

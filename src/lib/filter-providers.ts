@@ -6,6 +6,7 @@ import { findTaxonomyMatches, getTaxonomyById } from "@/lib/taxonomy";
 
 export const ALLOWED_CITIES = [
   "Kuala Lumpur",
+  "Petaling Jaya",
   "Penang",
   "Johor Bahru",
   "Malacca",

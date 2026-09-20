@@ -2,6 +2,12 @@
 
 This folder holds **manually verified** hospital JSON files for import. Files must pass `npm run validate:providers`.
 
+## Launch set
+
+`launch-set.json` is the first 20 official-source Malaysian listings. See [verification-log.md](./verification-log.md).
+
+These records are **public directory facts** from official websites. They are not signed partnerships. `sponsored` is false. `relationship` is `published`, not `contracted`.
+
 ## Workflow
 
 1. Collect an **official source URL** (hospital website or authorised document). Do not copy unverified marketing claims.
@@ -13,6 +19,6 @@ This folder holds **manually verified** hospital JSON files for import. Files mu
 
 ## Rules
 
-- Do **not** invent real hospital treatment claims as published production truth.
+- Do **not** invent hospital treatment claims, outcomes, or partner status.
 - Test-only hospitals live in `src/test/fixtures/providers.json` and load when `TEST_FIXTURES=1` or `NODE_ENV=test`.
-- Empty production imports are expected until counsel and directory ops approve live listings.
+- Production directory loads `data/providers/*.json` when fixtures are off.
