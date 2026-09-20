@@ -1,0 +1,12 @@
+{
+  "serviceBoundary": "MediQ is information and navigation only. It is not medical advice, diagnosis, treatment, or emergency care.",
+  "providerDataLimitation": "Directory details repeat what a hospital or medical centre has stated on a recorded source. Information can be incomplete or out of date. Always confirm with the provider.",
+  "consentCheckbox": "I understand MediQ will not give medical advice, and I agree to the privacy notice and fee disclosure for this request.",
+  "consentVersion": "2026-09-20.1",
+  "privacyNotice": "We collect only the contact and navigation details needed to route your request. We do not ask for medical records in this form. See the Privacy page for retention and complaint routes. Counsel must still approve this notice before launch.",
+  "feeDisclosure": "Browsing is free. Sending a request may include a disclosed navigation fee. Some listings are Sponsored because a provider pays a contracted administration or placement fee. Payment never changes unlabeled directory order.",
+  "sponsoredLabel": "Sponsored",
+  "emergencyNotice": "If this is an emergency, stop and contact local emergency services or the nearest emergency department. In Bangladesh and Malaysia the emergency number is 999. MediQ cannot handle urgent care.",
+  "directProviderContact": "You can contact the listed hospital directly using the official phone, email, or website on its profile. You do not have to use MediQ.",
+  "complaintRoute": "To complain about a listing, a fee, or how your request was handled, use the Contact page. Operations will log the case. This is not a clinical complaints process for hospital care."
+}
