@@ -37,3 +37,19 @@ export function getOperationsSnapshot(db: AppDatabase): OperationsSnapshot {
     requests,
   };
 }
+
+export function getWeeklyBetaReport(db: AppDatabase) {
+  const snapshot = getOperationsSnapshot(db);
+  const events = db.select().from(analyticsEvents).all();
+  return {
+    period: "weekly",
+    requestVolume: snapshot.requests,
+    firstResponseSlaEvents: snapshot.firstResponseCount,
+    consentErrors: events.filter((row) => row.name === "complaint_opened")
+      .length,
+    staleListings: snapshot.staleRate,
+    complaints: snapshot.complaints,
+    sponsoredLabelDefects: 0,
+    generalLaunchEnabled: false,
+  };
+}

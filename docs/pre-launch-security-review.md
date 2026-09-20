@@ -3,11 +3,12 @@
 **Reviewer:** _unassigned_  
 **Date:** pending
 
-| ID | Finding | Severity | Status | Evidence |
-| --- | --- | --- | --- | --- |
-| | | | open | |
+| ID | Finding | Severity | Status | Evidence | Owner | Fix / exception | Retest |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| SEC-001 | Dev-only npm audit hits in vitest mocker and drizzle-kit/esbuild | moderate | exception recorded | `npm audit --omit=dev` is clean; CI runs `npm run audit:prod` | Engineering | Do not force-downgrade drizzle-kit. Production install has 0 vulnerabilities. | each CI run |
+| SEC-002 | Live navigation-fee amount still a placeholder | high | open | `content/fee-disclosure.*.json` | Finance + counsel | Required before general launch | pending |
 
-Automated gates already in CI: lint, typecheck, unit tests, content-policy, Playwright, build. Dependabot weekly for npm.
+Automated gates already in CI: production dependency audit, lint, typecheck, unit tests, content-policy, Playwright, build. Dependabot weekly for npm. Unresolved critical/high production findings block launch unless an authorized exception is recorded.
 
 Tests that must stay green:
 

@@ -1,7 +1,11 @@
 import { randomUUID } from "node:crypto";
 import { eq } from "drizzle-orm";
 import type { AppDatabase } from "@/lib/db";
-import { auditEvents, navigationRequests } from "@/lib/db/schema";
+import {
+  auditEvents,
+  consentEvents,
+  navigationRequests,
+} from "@/lib/db/schema";
 import { canTransitionCase, type CaseStatus } from "@/lib/case-status";
 import {
   assertCan,
@@ -127,6 +131,28 @@ export function updateRequestStatus(
     });
   }
   return flags;
+}
+
+export function exportCase(db: AppDatabase, actor: Actor, requestId: string) {
+  requireActor(actor);
+  assertCan(actor.role, "consent.export");
+  const request = getRequestForActor(db, actor, requestId);
+  const consent = db
+    .select()
+    .from(consentEvents)
+    .where(eq(consentEvents.requestId, requestId))
+    .all();
+  const auditRows = db
+    .select()
+    .from(auditEvents)
+    .where(eq(auditEvents.entityId, requestId))
+    .all();
+  return {
+    request,
+    consent,
+    audit: auditRows,
+    exportedAt: new Date().toISOString(),
+  };
 }
 
 function audit(

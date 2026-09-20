@@ -32,6 +32,16 @@ export default async function AdminRequestDetailPage({
         {row.ownerId ?? "unassigned"}
       </p>
       <p className="mt-4 text-sm">{row.message}</p>
+      {actor.role === "admin" ? (
+        <p className="mt-4">
+          <a
+            href={`/admin/requests/${row.id}/export`}
+            className="text-primary text-sm underline"
+          >
+            Export consent and audit
+          </a>
+        </p>
+      ) : null}
       {flags.length > 0 ? (
         <p className="text-warning mt-4">
           Template contains a prohibited phrase

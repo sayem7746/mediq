@@ -14,6 +14,9 @@
     "format": "prettier --write .",
     "validate:providers": "tsx scripts/validate-provider-data.ts",
     "import:providers": "tsx scripts/import-providers.ts",
+    "jobs:stale": "tsx scripts/flag-stale-listings.ts",
+    "jobs:retention": "tsx scripts/run-retention.ts",
+    "audit:prod": "npm audit --omit=dev --audit-level=high",
     "prepare": "husky"
   },
   "lint-staged": {

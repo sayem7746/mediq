@@ -37,6 +37,9 @@ Test-only hospitals load when `TEST_FIXTURES=1` or `NODE_ENV=test`. Do not treat
 | `npm run test:content-policy` | Locale key parity + prohibited copy |
 | `npm run format` | Prettier |
 | `npm run validate:providers` | Validate `data/providers/*.json` |
+| `npm run jobs:stale` | Flag published listings past `nextReviewAt` |
+| `npm run jobs:retention` | Retention job (dry-run unless `--live`) |
+| `npm run audit:prod` | Production dependency audit |
 
 ## Docs
 
